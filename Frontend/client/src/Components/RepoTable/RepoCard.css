@@ -1,0 +1,76 @@
+.repo-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  width: 250px; 
+  min-height: 180px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.repo-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.repo-name {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+}
+
+.repo-name a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.repo-name a:hover {
+  text-decoration: underline;
+}
+.laguageName{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 2px;
+}
+
+.repo-description {
+  font-size: 12px;
+  margin-bottom: 0px;
+  margin-top: -10px;
+}
+
+.expand-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-left: 5px;
+}
+
+.repo-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.PersonName{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 2px;
+}
+
+.repo-info div{
+margin-top: 5px;
+}
+.repo-info div span{
+    font-weight: bold;
+}

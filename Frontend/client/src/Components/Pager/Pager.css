@@ -1,0 +1,32 @@
+.pager {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pager button {
+  padding: 6px 12px;
+  background-color: #0366d6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.pager button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pager button:hover:not(:disabled) {
+  background-color: #024ea2;
+}
+
+.pager span {
+  font-weight: 500;
+  font-weight: bold;
+}
