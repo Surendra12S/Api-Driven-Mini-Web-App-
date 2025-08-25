@@ -3,7 +3,7 @@ API-Driven Mini Web App
 
 A full-stack web application that allows users to enter a keyword, fetch data from a public API, store it in a database, and view the results on a dashboard. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
-🚀 Features
+**🚀 Features**
 
 ●  🔍 Enter a keyword to fetch related data from a public API (e.g., GitHub Repos API, OpenWeather API)
 
@@ -17,32 +17,23 @@ A full-stack web application that allows users to enter a keyword, fetch data fr
 
 ● ⚙ Tech Stack
 
-Frontend
 
-● React.js
+**Frontend **                               ** Backend**
 
-● React Router
+● React.js                                  ● Node.js  
 
-● Axios
+● React Router                              ● Express.js
 
-● CSS
+● Axios                                      ● MongoDB (Mongoose)
 
-● Backend
+● CSS                                        ● Tools
 
-● Node.js
-
-● Express.js
-
-● MongoDB (Mongoose)
-
-● Tools
-
-● Postman (for API testing)
-
-● Visual Studio Code  
+● Visual Studio Code                        ● Postman (for API testing)
 
 
-📁 Project Structure
+
+
+**📁 Project Structure**
 
 client/           # Frontend React code
 └── src/
@@ -56,7 +47,10 @@ server/           # Backend Node/Express code
 └── controllers/
 └── server.js
 
-🧪 Setup Instructions
+
+
+**🧪 Setup Instructions**
+
 1. Clone the Repository
 git clone https://github.com/Surendra12S/API-Driven-Mini-Web-App.git
 cd API-Driven-Mini-Web-App
@@ -76,23 +70,22 @@ MONGO_URI=your_mongodb_connection_string
 6. Run the App
 
 Start Backend:
-
 cd server
 npm start
 
 
-Start Frontend:
-
+7.Start Frontend:
 cd ../client
 npm start
 
 Visit the app at: http://localhost:3000
 
-📸 Screenshots
+
+**📸 Screenshots**
 
 ![image alt](https://github.com/Surendra12S/Api-Driven-Mini-Web-App-/blob/4bf39e92ca21629dd366ebc5b955a3cc3c9a3595/Screenshot%202025-08-25%20221538.png)
 
-📬 Contact
+**📬 Contact**
 
 👤 Dasari Surendra
 📧 dasarisurendra0604@gmail.com
