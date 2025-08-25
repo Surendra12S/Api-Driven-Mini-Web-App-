@@ -90,7 +90,7 @@ Visit the app at: http://localhost:3000
 
 📸 Screenshots
 
-
+![image alt](https://github.com/Surendra12S/Api-Driven-Mini-Web-App-/blob/4bf39e92ca21629dd366ebc5b955a3cc3c9a3595/Screenshot%202025-08-25%20221538.png)
 
 📬 Contact
 
