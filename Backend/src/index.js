@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import router from "./routes/search.js";
 import cors from "cors"; 
+import serverless from "serverless-http";
 
 dotenv.config();
 
@@ -16,6 +17,5 @@ mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.error("Mongo error:", err));
 
-app.listen(5000, () => {
-  console.log("Server running on port 5000");
-});
+
+export const handler = serverless(app);
