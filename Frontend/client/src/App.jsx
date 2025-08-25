@@ -22,7 +22,7 @@ function App() {
 
     try {
       const res = await axios.get(
-        `http://localhost:5000/api/search?keyword=${keyword}&page=${newPage}`
+        `https://api-driven-mini-web-app-cqkc.onrender.com/api/search?keyword=${keyword}&page=${newPage}`
       );
 
       console.log("API response:", res.data);
